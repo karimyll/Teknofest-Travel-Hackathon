@@ -371,18 +371,25 @@ dl, ol, ul {
    }  
 
 .entertainment{
-    min-height: 125vh;
+    min-height: 100%;
 }
 .entertainment h1{
     font-family: 'MuseoSans-900';
     text-align: center;
     padding-bottom: 10px;
 }
-.row img{
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.cards img{
+    
  border-radius: 6px;
  transition: all 0.5s;
 }
-.row img:hover{
+.cards img:hover{
     transform: scale(1.05);
     transition: all 0.5s;
 }

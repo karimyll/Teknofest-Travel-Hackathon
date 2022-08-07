@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Türk Hava Yolları ® | Dünyanın En Çok Ülkesine Uçan Havayolu</title>
+    <title>Turkish Airlines | Fly to the most countries!</title>
     <link rel="shortcut icon" href="//www.turkishairlines.com/theme/img/icons/favicon.ico" />
     <link rel="stylesheet" href="css/style.css?version=999">
     <script src="/js/main.js"></script>
@@ -21,11 +21,10 @@
     <div class="header">
     <a href="/index.html" class="logo"><img src="https://cdn.turkishairlines.com/m/2190da9e53a70e4e/original/THY-LOGO.png" class="hidden-sm hidden-xs" height="40px" alt="THY LOGO"></a>
         <ul>
-            <li><a href="" class="underline">PLAN&BOOK</a></li>
-            <li><a href="" class="underline">FLY DIFFERENT</a></li>
-            <li><a href="" class="underline">DISCOVER</a></li>
-            <li><a href="" class="underline">Sign up</a></li>
-            <li><button>Sign in <i class="fa fa-user"></i></button></li>
+            <li><a href="#maparea" class="underline">EXPLORE THE WORLD!</a></li>
+            <li><a href="#entertainment" class="underline">ENTERTAINMENT</a></li>
+            <li><a href="#bot" class="underline">AI CHATBOT</a></li>
+            <li><button>Hi, User <i class="fa fa-user"></i></button></li>
         </ul>
     </div>
 
@@ -40,9 +39,10 @@
 </div>
 <div class="menulinks" id="menulinksid">
     <ul>
-      <li><a href="" >PLAN&BOOK</a></li>
-      <li><a href="" >FLY DIFFERENT</a></li>
-      <li><a href="" >DISCOVER</a></li>
+            <li><a href="#maparea">EXPLORE THE WORLD!</a></li>
+            <li><a href="#entertainment">ENTERTAINMENT</a></li>
+            <li><a href="#bot">AI CHATBOT</a></li>
+            <li><button>Hi, User <i class="fa fa-user"></i></button></li>
     </ul>
 </div>
 </div>
@@ -65,39 +65,28 @@
   </div>
 </div>
 <div class="container">
-  <div class="map">
+  <div class="map" id="maparea">
     <h1>Explore the city you like the most via online!</h1>
 <div class="maparea">
   <div id="map" class="map"></div>
 </div>
   </div>
 </div>
-<div class="entertainment">
+<div class="entertainment" id="entertainment">
   <h1>Entertainment</h1>
   <div class="container">
-    <div class="row">
-      <div class="col-md-6 mb-3">
-<a href="/entertainment/quiz/index.html"><img src="/img/quizss.png" width="100%" alt=""></a>
-<p>Turkish Airlines Quiz</p>
-      </div>
-      <div class="col-md-6 mb-3">
-        <a href="/entertainment/music/index.html"><img src="/img/musicss.png" width="100%" alt=""></a>
+    <div class="cards">
+      <a href="/entertainment/quiz/index.html"><img src="/img/quizss.png" width="100%" alt=""></a>
+      <p>Turkish Airlines Quiz</p>
+      <a href="/entertainment/music/index.html"><img src="/img/musicss.png" width="100%" alt=""></a>
       <p>Music Player</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-6 mb-3">
-        <a href="/entertainment/library/index.html"><img src="/img/libraryss.png" width="100%" alt=""></a>
+      <a href="/entertainment/library/index.html"><img src="/img/libraryss.png" width="100%" alt=""></a>
       <p>Book Library</p>
-      </div>
-      <div class="col-md-6 mb-3">
-        <a href=""><img src="https://i.picsum.photos/id/456/525/300.jpg?hmac=JpLmcy64KEWtPsDbSy9N_MeFfqbwL8vOKiMVhwMRhg8" width="100%" alt=""></a>
-      </div>
     </div>
   </div>
 </div>
 <br>
-<div class="bot">
+<div class="bot" id="bot">
   <div class="glass">   
     <h1>What is your question about?</h1>  
     <div class="input">  
@@ -176,6 +165,3 @@ $('.list').click(function(){
 
 </body>
 </html>
-
-
-

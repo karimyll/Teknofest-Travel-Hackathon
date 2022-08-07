@@ -6,6 +6,15 @@ function myFunction() {
         x.style.display = "block";
       }
     }
+    function rate() {
+      var x = document.getElementById("ratebuttonid");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+    
 
     function talk(){  
         var know = {  
@@ -44,3 +53,4 @@ function myFunction() {
          document.getElementById('chatLog').innerHTML = "Sorry, I could not find information related with your question. Contact to our live support. <br>";  
         }  
        }      
+
