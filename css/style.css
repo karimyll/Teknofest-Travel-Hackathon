@@ -269,6 +269,12 @@ dl, ol, ul {
     height: 19px;
     width: 19px;
 }
+.entertainment p{
+    font-size: 1.3em !important;
+    padding-top: 10px;
+    font-family: 'MuseoSans-700';
+    text-align: center;
+}
 @media screen and (max-width:700px) {
     .footer .linksfooter{
        
