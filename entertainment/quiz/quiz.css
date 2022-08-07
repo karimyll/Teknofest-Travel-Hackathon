@@ -15,6 +15,16 @@
     src: url("/fonts/MuseoSans-500.woff");
 
 }
+@font-face {
+    font-family: MuseoSans-300;
+    src: url("/fonts/MuseoSans-300.woff");
+
+}
+@font-face {
+    font-family: MuseoSans-100;
+    src: url("/fonts/MuseoSans-100.woff");
+
+}
 *{
     margin: 0;
     padding: 0;
@@ -72,6 +82,7 @@ body{
     opacity: 0;
     pointer-events: none;
     transition: all 0.3s ease;
+    font-family: 'MuseoSans-100' !important;
 }
 
 .info_box .info-title{
@@ -93,6 +104,7 @@ body{
 .info_box .info-list .info{
     margin: 5px 0;
     font-size: 17px;
+    font-family: 'MuseoSans-300';
 }
 
 .info_box .info-list .info span{
@@ -399,6 +411,7 @@ footer button.show{
 .icon i{
   color: #EF2E1F";
 }
+
 .header{
     position: static;
     height: 60px;
@@ -554,5 +567,27 @@ a, button{
     color: white;
     
 }
-
+.start_btn button{
+    font-size: 20px;
+}
+.info_box{
+    width: calc(100% - 10px);
+}
+.info_box .info-title{
+    font-size: 17px;
+}
+.info_box .info-list .info{
+    margin: 5px 0;
+    font-size: 16px;
+}
+.quiz_box{
+    width: calc(100% - 10px);
+}
+section .que_text{
+    font-size: 18px;
+    font-weight: 600;
+}
+.result_box{
+    width: calc(100% - 10px);
+}
 }
