@@ -99,7 +99,6 @@ a{
 }
 a, button{
     transition: all .25s ease 0s;
-
 }
 .underline{
     display: inline-block;
@@ -136,15 +135,34 @@ dl, ol, ul {
     text-align: center;
 
 }
-.maparea{
-    border: 1px solid black;
-    height: 80vh;
-    
+.container{
+    text-decoration: none;
 }
-.maparea h1{
-    position: relative;
-    padding: calc(20% - 25px);
-}
+.map {
+    height: 120vh;
+    width: 100%;
+    padding:   10px 10px ;
+    margin-bottom: 10rem;
+  }
+  
+  .map__hint {
+    text-align:center;
+  }
+  
+  .map__balloon {
+      text-align: center;
+      
+  }
+  .map__balloon a{
+    text-align: pass;
+  }
+  
+  .map__burger-img {
+      text-align: center;
+      height: 175px;
+      width: 300px;
+      
+  }
 
    .glass {  
     display: flex;
@@ -202,9 +220,14 @@ dl, ol, ul {
     .glass p{
         font-size: 14px;
     }
+    .map {
+        height: 70vh;
+        width: 100%;
+        padding:   10px 10px ;
+        margin-bottom: 13rem;
+      }
    }
-
-
+   
 
 @media screen and (max-width: 810px){
     .header{
@@ -234,8 +257,6 @@ dl, ol, ul {
     background-color: #232B38;
     border-top: 2px solid red;
     transition: all 2s;
-    -moz-transition: all 2s;
-    -webkit-transition: all 2s;
    
 }
 .menulinks ul li{
